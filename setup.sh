@@ -1,21 +1,21 @@
 #!/bin/bash
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                                2BX                                          ##
+##                                                                                              ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 versao() {
-echo -e "                                   \e[97mVersão do Instalador: \e[32mv. 2.5.6\e[0m                                  "
-echo -e "\e[32m2bx.com.br      \e[97m<-----  ----->     \e[32m2bx.com.br\e[0m"
+echo -e "                                   \e[97mVersão do Setup2BX: \e[32mv. 2.5.6\e[0m                                  "
+echo -e "\e[32m2bx.com.br      \e[97m<----- 2BX ----->     \e[32m2bx.com.br\e[0m"
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                                2BX                                          ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Cores do Setup
 
-verde="\e[33m"
+amarelo="\e[33m"
 verde="\e[32m"
 branco="\e[97m"
 bege="\e[93m"
@@ -23,13 +23,13 @@ vermelho="\e[91m"
 reset="\e[0m"
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                                2BX                                          ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 menu_instalador="1"
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                                2BX                                          ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 home_directory="$HOME"
@@ -41,7 +41,7 @@ dados() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                                2BX                                          ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Licença do Setup
@@ -50,7 +50,7 @@ dados() {
 direitos_setup() {
     echo -e "$amarelo===================================================================================================\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
-    echo -e "$amarelo=  $branco                             SETUP PARA USO INTERNO                                          $amarelo  =\e[0m"
+    echo -e "$amarelo=  $branco                               https://2bx.com.br                             $amarelo  =\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
     echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
@@ -60,7 +60,7 @@ direitos_setup() {
 direitos_instalador() {
     echo -e "$amarelo===================================================================================================\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
-    echo -e "$amarelo=  $branco                             SETUP PARA USO INTERNO                                          $amarelo  =\e[0m"
+    echo -e "$amarelo=  $branco                               https://2bx.com.br                             $amarelo  =\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
     echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
@@ -115,7 +115,7 @@ creditos_msg() {
     echo ""
     echo ""
     echo -e "$amarelo===================================================================================================\e[0m"
-
+    echo -e "$amarelo=                                                                                                 $amarelo=\e[0m"
     echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
     echo ""
@@ -123,7 +123,7 @@ creditos_msg() {
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                               2BX                                           ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Mensagens gerais
@@ -251,7 +251,7 @@ nome_credenciais() {
     info_credenciais
 }
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                                2BX                                          ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Titulos
@@ -261,6 +261,12 @@ nome_credenciais() {
 nome_instalador() {
     clear
     echo ""
+    echo -e "$branco       ███████╗███████╗████████╗██╗   ██╗██████╗      ██████╗ ██████╗ ██╗ ██████╗ ███╗   ██╗\e[0m"
+    echo -e "$branco       ██╔════╝██╔════╝╚══██╔══╝██║   ██║██╔══██╗    ██╔═══██╗██╔══██╗██║██╔═══██╗████╗  ██║\e[0m"
+    echo -e "$branco       ███████╗█████╗     ██║   ██║   ██║██████╔╝    ██║   ██║██████╔╝██║██║   ██║██╔██╗ ██║\e[0m"
+    echo -e "$branco       ╚════██║██╔══╝     ██║   ██║   ██║██╔═══╝     ██║   ██║██╔══██╗██║██║   ██║██║╚██╗██║\e[0m"
+    echo -e "$branco       ███████║███████╗   ██║   ╚██████╔╝██║         ╚██████╔╝██║  ██║██║╚██████╔╝██║ ╚████║\e[0m"
+    echo -e "$branco       ╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝          ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝\e[0m"
     echo -e "$branco                                                                                            \e[0m"
     echo -e "$branco                                 ██████╗    ███████╗    ██████╗                             \e[0m"
     echo -e "$branco                                 ╚════██╗   ██╔════╝   ██╔════╝                             \e[0m"
@@ -1100,7 +1106,7 @@ nome_portainer.reset() {
     echo ""
 }
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Defasados
@@ -1139,7 +1145,7 @@ nome_finalizado() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                              2BX                                            ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Menu de opções
@@ -1243,7 +1249,7 @@ menu_instalador_pg_2(){
 ## LangFlow - OK
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                              2BX                                            ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 
@@ -1534,7 +1540,7 @@ verificar_token() {
                 atualizar_arquivo
             fi
 
-            $APP_ORION
+            $APP_2BX
 
             break
         else
@@ -1593,7 +1599,7 @@ atualizar_arquivo() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Verificadores
@@ -2537,7 +2543,7 @@ wait_zep(){
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Pegar informações
@@ -2609,7 +2615,7 @@ pegar_link_s3() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Criadores de banco de dados Postgres
@@ -3764,7 +3770,7 @@ criar_banco_pgvector_zep() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Criadores de banco de dados Mysql
@@ -3956,7 +3962,7 @@ criar_banco_mysql_humhub() {
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Instalação das Ferramentas
@@ -3982,7 +3988,7 @@ echo ""
 
 echo -e "\e[97mPasso$amarelo 2/5\e[0m"
 echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-echo -en "\e[33mDigite o usuário de Email (ex: oriondesign ou contato@2bx.com.br): \e[0m" && read -r user_teste
+echo -en "\e[33mDigite o usuário de Email (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_teste
 echo ""
 
 echo -e "\e[97mPasso$amarelo 3/5\e[0m"
@@ -4037,7 +4043,7 @@ sudo apt-get update > /dev/null 2>&1
 sudo apt-get install swaks -y > /dev/null 2>&1
 
 msg="Se você está lendo isso, o seu SMTP está funcionando =D.
-By: admin"
+By: 2BXDesign"
 
 if swaks --to "$email_teste" --from "$email_teste" --server "$host_teste" --port "$porta_teste" --auth LOGIN --auth-user "$user_teste" --auth-password "$senha_teste" --tls --body "$msg"; then
     sleep 2
@@ -4104,13 +4110,13 @@ while true; do
     ## Pergunta o Nome do Servidor
     echo -e "\e[97mPasso$amarelo 2/4\e[0m"
     echo -e "$amarelo--> Não pode conter Espaços e/ou cartacteres especiais"
-    echo -en "\e[33mEscolha um nome para o seu servidor (ex: admin): \e[0m" && read -r nome_servidor
+    echo -en "\e[33mEscolha um nome para o seu servidor (ex: 2BXDesign): \e[0m" && read -r nome_servidor
     echo ""
     
     ## Pergunta o nome da Rede Interna
     echo -e "\e[97mPasso$amarelo 3/4\e[0m"
     echo -e "$amarelo--> Não pode conter Espaços e/ou cartacteres especiais."
-    echo -en "\e[33mDigite um nome para sua rede interna (ex: OrionNet): \e[0m" && read -r nome_rede_interna
+    echo -en "\e[33mDigite um nome para sua rede interna (ex: 2BXNet): \e[0m" && read -r nome_rede_interna
     echo ""
     
     ## Pergunta o Email para informações sobre o certificado
@@ -4203,7 +4209,7 @@ cat > dados_vps << EOL
 [DADOS DA VPS]
 
 Estes dados foram preenchidos na hora que você foi instalar o Traefik e Portainer e
-serão utilizados para realizar as instalações no do SetupOrion v.2
+serão utilizados para realizar as instalações no do Setup2BX v.2
 
 Nome do Servidor: $nome_servidor
 
@@ -4386,7 +4392,7 @@ cat > traefik.yaml << EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   traefik:
     image: traefik:v2.11.2
@@ -4436,7 +4442,7 @@ services:
     networks:
       - $nome_rede_interna ## Nome da rede interna
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   vol_shared:
@@ -4492,7 +4498,7 @@ cat > portainer.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   agent:
     image: portainer/agent:latest ## Versão do portainer
@@ -4509,7 +4515,7 @@ services:
       placement:
         constraints: [node.platform.os == linux]
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   portainer:
     image: portainer/portainer-ce:latest
@@ -4537,7 +4543,7 @@ services:
         - "traefik.http.routers.portainer.entrypoints=websecure"
         - "traefik.http.routers.portainer.priority=1"
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 networks:
   $nome_rede_interna: ## Nome da rede interna
@@ -4651,7 +4657,7 @@ cat > postgres.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   postgres:
     image: postgres:14 ## Versão do postgres
@@ -4681,7 +4687,7 @@ services:
           cpus: "0.5"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   postgres_data:
@@ -4751,7 +4757,7 @@ cat > pgvector.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   pgvector:
     image: pgvector/pgvector:pg16
@@ -4779,7 +4785,7 @@ services:
           cpus: "0.5"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   pgvector:
@@ -4845,7 +4851,7 @@ cat > redis.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   redis:
     image: redis:latest  ## Versão do Redis
@@ -4874,7 +4880,7 @@ services:
           cpus: "1"
           memory: 2048M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   redis_data:
@@ -4940,7 +4946,7 @@ cat > redis.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   redis:
     image: redis:latest  ## Versão do Redis
@@ -4969,7 +4975,7 @@ services:
           cpus: "1"
           memory: 2048M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   redis_data:
@@ -5076,7 +5082,7 @@ cat > mysql.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   mysql:
     image: percona/percona-server:8.0 ## Versão do Mysql
@@ -5110,7 +5116,7 @@ services:
         "--max-allowed-packet=512MB",
       ]
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   mysql_data:
@@ -5182,7 +5188,7 @@ cat > mysql.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   mysql:
     image: percona/percona-server:8.0 ## Versão do Mysql
@@ -5216,7 +5222,7 @@ services:
         "--max-allowed-packet=512MB",
       ]
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   mysql_data:
@@ -5343,7 +5349,7 @@ while true; do
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r user_smtp_chatwoot
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_smtp_chatwoot
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -5502,7 +5508,7 @@ cat > chatwoot.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   chatwoot_app:
     image: chatwoot/chatwoot:latest ## Versão do Chatwoot
@@ -5601,7 +5607,7 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.chatwoot_app.middlewares=sslheader@docker
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   chatwoot_sidekiq:
     image: chatwoot/chatwoot:latest ## Versão do Chatwoot
@@ -5688,7 +5694,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   chatwoot_storage:
@@ -6045,7 +6051,7 @@ cat > chatwoot.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   chatwoot_app:
     image: sendingtk/chatwoot-arm:latest ## Versão do Chatwoot
@@ -6144,7 +6150,7 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.chatwoot_app.middlewares=sslheader@docker
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   chatwoot_sidekiq:
     image: sendingtk/chatwoot-arm:latest ## Versão do Chatwoot
@@ -6231,7 +6237,7 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   chatwoot_storage:
@@ -6495,16 +6501,16 @@ cat > evolution.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
-  evolution_admin:
+  evolution_2BXdesign:
     image: atendai/evolution-api:latest ## Versão da Evolution API
     command: ["node", "./dist/src/main.js"]
 
     volumes:
-    - evolution_admin_instances:/evolution/instances
-    - evolution_admin_store:/evolution/store
-    - evolution_admin_views:/evolution/views
+    - evolution_2BXdesign_instances:/evolution/instances
+    - evolution_2BXdesign_store:/evolution/store
+    - evolution_2BXdesign_views:/evolution/views
 
     networks:
       - $nome_rede_interna ## Nome da rede interna
@@ -6519,7 +6525,7 @@ services:
     - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
 
     ## Configurações
-    - CONFIG_SESSION_PHONE_CLIENT=admin ## Nome que aparece no celular
+    - CONFIG_SESSION_PHONE_CLIENT=2BXDesign ## Nome que aparece no celular
     - CONFIG_SESSION_PHONE_NAME=chrome
 
     ## Definir versão do Whatsapp Web
@@ -6617,26 +6623,26 @@ services:
         - node.role == manager
       labels:
       - traefik.enable=1
-      - traefik.http.routers.evolution_admin.rule=Host(\`$url_evolution\`) ## Url da aplicação
-      - traefik.http.routers.evolution_admin.entrypoints=websecure
-      - traefik.http.routers.evolution_admin.priority=1
-      - traefik.http.routers.evolution_admin.tls.certresolver=letsencryptresolver
-      - traefik.http.routers.evolution_admin.service=evolution_admin
-      - traefik.http.services.evolution_admin.loadbalancer.server.port=8080
-      - traefik.http.services.evolution_admin.loadbalancer.passHostHeader=1
+      - traefik.http.routers.evolution_2BXdesign.rule=Host(\`$url_evolution\`) ## Url da aplicação
+      - traefik.http.routers.evolution_2BXdesign.entrypoints=websecure
+      - traefik.http.routers.evolution_2BXdesign.priority=1
+      - traefik.http.routers.evolution_2BXdesign.tls.certresolver=letsencryptresolver
+      - traefik.http.routers.evolution_2BXdesign.service=evolution_2BXdesign
+      - traefik.http.services.evolution_2BXdesign.loadbalancer.server.port=8080
+      - traefik.http.services.evolution_2BXdesign.loadbalancer.passHostHeader=1
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
-  evolution_admin_instances:
+  evolution_2BXdesign_instances:
     external: true
-    name: evolution_admin_instances
-  evolution_admin_store:
+    name: evolution_2BXdesign_instances
+  evolution_2BXdesign_store:
     external: true
-    name: evolution_admin_store
-  evolution_admin_views:
+    name: evolution_2BXdesign_store
+  evolution_2BXdesign_views:
     external: true
-    name: evolution_admin_views
+    name: evolution_2BXdesign_views
 networks:
   $nome_rede_interna: ## Nome da rede interna
     name: $nome_rede_interna ## Nome da rede interna
@@ -6868,7 +6874,7 @@ cat > evolution2.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   evolution_v2:
     image: atendai/evolution-api:v2.0.0-alpha ## Versão da Evolution API
@@ -6890,7 +6896,7 @@ services:
 
     ## Configurações
     - LANGUAGE=pt-BR
-    - CONFIG_SESSION_PHONE_CLIENT=admin ## Nome que aparece no celular
+    - CONFIG_SESSION_PHONE_CLIENT=2BXDesign ## Nome que aparece no celular
     - CONFIG_SESSION_PHONE_NAME=chrome
     #- CONFIG_SESSION_PHONE_VERSION=2.2413.51 ## pegue a versão em: https://web.whatsapp.com/check-update?version=0&platform=web
 
@@ -6989,7 +6995,7 @@ services:
       - traefik.http.services.evolution_v2.loadbalancer.server.port=8080
       - traefik.http.services.evolution_v2.loadbalancer.passHostHeader=true
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   evolution_instances:
@@ -7177,16 +7183,16 @@ cat > evolution.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
-  evolution_admin:
+  evolution_2BXdesign:
     image: jquerubim/evolution-api-arm:latest ## Versão da Evolution API
     command: ["node", "./dist/src/main.js"]
 
     volumes:
-    - evolution_admin_instances:/evolution/instances
-    - evolution_admin_store:/evolution/store
-    - evolution_admin_views:/evolution/views
+    - evolution_2BXdesign_instances:/evolution/instances
+    - evolution_2BXdesign_store:/evolution/store
+    - evolution_2BXdesign_views:/evolution/views
 
     networks:
       - $nome_rede_interna ## Nome da rede interna
@@ -7201,7 +7207,7 @@ services:
     - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
 
     ## Configurações
-    - CONFIG_SESSION_PHONE_CLIENT=admin ## Nome que aparece no celular
+    - CONFIG_SESSION_PHONE_CLIENT=2BXDesign ## Nome que aparece no celular
     - CONFIG_SESSION_PHONE_NAME=chrome
 
     ## Sobre os QR-Codes
@@ -7290,26 +7296,26 @@ services:
         - node.role == manager
       labels:
       - traefik.enable=1
-      - traefik.http.routers.evolution_admin.rule=Host(\`$url_evolution\`) ## Url da aplicação
-      - traefik.http.routers.evolution_admin.entrypoints=websecure
-      - traefik.http.routers.evolution_admin.priority=1
-      - traefik.http.routers.evolution_admin.tls.certresolver=letsencryptresolver
-      - traefik.http.routers.evolution_admin.service=evolution_admin
-      - traefik.http.services.evolution_admin.loadbalancer.server.port=8080
-      - traefik.http.services.evolution_admin.loadbalancer.passHostHeader=1
+      - traefik.http.routers.evolution_2BXdesign.rule=Host(\`$url_evolution\`) ## Url da aplicação
+      - traefik.http.routers.evolution_2BXdesign.entrypoints=websecure
+      - traefik.http.routers.evolution_2BXdesign.priority=1
+      - traefik.http.routers.evolution_2BXdesign.tls.certresolver=letsencryptresolver
+      - traefik.http.routers.evolution_2BXdesign.service=evolution_2BXdesign
+      - traefik.http.services.evolution_2BXdesign.loadbalancer.server.port=8080
+      - traefik.http.services.evolution_2BXdesign.loadbalancer.passHostHeader=1
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
-  evolution_admin_instances:
+  evolution_2BXdesign_instances:
     external: true
-    name: evolution_admin_instances
-  evolution_admin_store:
+    name: evolution_2BXdesign_instances
+  evolution_2BXdesign_store:
     external: true
-    name: evolution_admin_store
-  evolution_admin_views:
+    name: evolution_2BXdesign_store
+  evolution_2BXdesign_views:
     external: true
-    name: evolution_admin_views
+    name: evolution_2BXdesign_views
 networks:
   $nome_rede_interna: ## Nome da rede interna
     name: $nome_rede_interna ## Nome da rede interna
@@ -7430,7 +7436,7 @@ while true; do
     ##Pergunta o Usuario para o Minio
     echo -e "\e[97mPasso$amarelo 3/4\e[0m"
     echo -e "$amarelo--> Evite os caracteres especiais: \!#$ e/ou espaço"
-    echo -en "\e[33mDigite um usuario para o MinIO (ex: admin): \e[0m" && read -r user_minio
+    echo -en "\e[33mDigite um usuario para o MinIO (ex: 2BXDesign): \e[0m" && read -r user_minio
     echo ""
     
     ##Pergunta a Senha para o Minio
@@ -7513,7 +7519,7 @@ cat > minio.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   minio:
     image: quay.io/minio/minio:RELEASE.2024-01-13T07-53-03Z-cpuv1 ## Versão do Minio
@@ -7555,7 +7561,7 @@ services:
         - traefik.http.services.minio_console.loadbalancer.passHostHeader=true
         - traefik.http.routers.minio_console.service=minio_console
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 volumes:
   minio_data:
@@ -7699,7 +7705,7 @@ while true; do
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 5/10\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r usuario_email_typebot
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r usuario_email_typebot
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -7874,7 +7880,7 @@ cat > typebot.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   typebot_builder:
     image: baptistearno/typebot-builder:$versao_typebot ## Versão do Typebot
@@ -7941,7 +7947,7 @@ services:
         - traefik.http.services.typebot_builder.loadbalancer.passHostHeader=true
         - traefik.http.routers.typebot_builder.service=typebot_builder
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   typebot_viewer:
     image: baptistearno/typebot-viewer:$versao_typebot ## Versão do Typebot
@@ -8008,7 +8014,7 @@ services:
         - traefik.http.services.typebot_viewer.loadbalancer.passHostHeader=true
         - traefik.http.routers.typebot_viewer.service=typebot_viewer
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
 networks:
   $nome_rede_interna: ## Nome da rede interna
@@ -8219,7 +8225,7 @@ cat > n8n.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- ORION --------------------------- ##
+## --------------------------- 2BX --------------------------- ##
 
   n8n_editor:
     image: n8nio/n8n:latest ## Versão do N8N
@@ -9028,7 +9034,7 @@ while true; do
     
     ##Pergunta um Usuario para a ferramenta
     echo -e "\e[97mPasso$amarelo 3/4\e[0m"
-    echo -en "\e[33mDigite um nome de usuario para o Nocobase (ex: admin): \e[0m" && read -r user_nocobase
+    echo -en "\e[33mDigite um nome de usuario para o Nocobase (ex: 2BXDesign): \e[0m" && read -r user_nocobase
     echo ""
     
     ##Pergunta a Senha para a ferramenta
@@ -9714,7 +9720,7 @@ services:
           - node.role == manager
       labels:
         - traefik.enable=true
-        - traefik.http.routers.$nome_do_servico_wordpress.rule=Host(\`$url_wordpress, www.$url_wordpress\`)
+        - traefik.http.routers.$nome_do_servico_wordpress.rule=Host(\`$url_wordpress`, `www.$url_wordpress\`)
         - traefik.http.routers.$nome_do_servico_wordpress.entrypoints=websecure
         - traefik.http.routers.$nome_do_servico_wordpress.tls.certresolver=letsencryptresolver
         - traefik.http.routers.$nome_do_servico_wordpress.service=$nome_do_servico_wordpress
@@ -9869,7 +9875,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r user_baserow
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_baserow
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -10182,7 +10188,7 @@ while true; do
     ## Pergunta o nome de usuario
     echo -e "\e[97mPasso$amarelo 1/1\e[0m"
     echo -e "$amarelo--> Evite os caracteres especiais: @\!#$ e/ou espaço"
-    echo -en "\e[33mDigite o nome de usuario (ex: admin): \e[0m" && read -r user_mongo
+    echo -en "\e[33mDigite o nome de usuario (ex: 2BXdesign): \e[0m" && read -r user_mongo
     echo ""
     
     ## Gera a senha aleatória
@@ -10412,7 +10418,7 @@ while true; do
     
     echo -e "\e[97mPasso$amarelo 2/2\e[0m"
     echo -e "$amarelo--> Evite os caracteres especiais: @\!#$ e/ou espaço"
-    echo -en "\e[33mDigite o nome de usuario (ex: admin): \e[0m" && read -r user_rabbitmq
+    echo -en "\e[33mDigite o nome de usuario (ex: 2BXDesign): \e[0m" && read -r user_rabbitmq
     echo ""
     
     ## Gera a senha aleatória
@@ -10865,7 +10871,7 @@ while true; do
     ## Pergunta o Ususario SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuario para SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r user_calcom
+    echo -en "\e[33mDigite o Usuario para SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_calcom
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -11170,7 +11176,7 @@ while true; do
     ## Pergunta o usuario da ferramenta
     echo -e "\e[97mPasso$amarelo 2/4\e[0m"
     echo -e "$amarelo--> Sem caracteres especiais: \!#$ e/ou espaços"
-    echo -en "\e[33mDigite um usuario (ex: admin): \e[0m" && read -r user_mautic
+    echo -en "\e[33mDigite um usuario (ex: 2BXDesign): \e[0m" && read -r user_mautic
     echo ""
 
     ## Pergunta o email da ferramenta
@@ -12013,7 +12019,7 @@ while true; do
     ## Pergunta o nome do Usuario do Motor
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
     echo -e "$amarelo--> Evite os caracteres especiais: @\!#$ e/ou espaço"
-    echo -en "\e[33mDigite o User do MOTOR (ex: admin): \e[0m" && read -r email_admin_woofed
+    echo -en "\e[33mDigite o User do MOTOR (ex: 2BXdesign): \e[0m" && read -r email_admin_woofed
     echo ""
 
     ## Pergunta o nome do Senha do Motor
@@ -12512,7 +12518,7 @@ while true; do
     ## Pergunta o User SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuario do SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r user_smtp_formbricks
+    echo -en "\e[33mDigite o Usuario do SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_smtp_formbricks
     echo ""
     
     ## Pergunta a Senha SMTP
@@ -14306,7 +14312,7 @@ while true; do
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r user_smtp_chatwoot
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_smtp_chatwoot
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -15311,7 +15317,7 @@ services:
 ## --------------------------- 2BX --------------------------- ##
 
   n8n_quepasa_editor:
-    image: admin/n8n-quepasa:latest ## Versão do N8N
+    image: 2BXdesign/n8n-quepasa:latest ## Versão do N8N
     command: start
 
     volumes:
@@ -15407,7 +15413,7 @@ services:
 ## --------------------------- 2BX --------------------------- ##
 
   n8n_quepasa_webhook:
-    image: admin/n8n-quepasa:latest ## Versão do N8N
+    image: 2BXdesign/n8n-quepasa:latest ## Versão do N8N
     command: webhook
 
     volumes:
@@ -15503,7 +15509,7 @@ services:
 ## --------------------------- 2BX --------------------------- ##
 
   n8n_quepasa_worker:
-    image: admin/n8n-quepasa:latest ## Versão do N8N
+    image: 2BXdesign/n8n-quepasa:latest ## Versão do N8N
     command: worker --concurrency=10
 
     volumes:
@@ -15791,7 +15797,7 @@ services:
             - QUEPASA_BASIC_AUTH_PASSWORD=$email_quepasa
 
             ## Titulo no celular
-            - APP_TITLE=admin ## Mude aqui o nome que vai aparecer no celular.
+            - APP_TITLE=2BXDesign ## Mude aqui o nome que vai aparecer no celular.
 
             ## TimeZone
             - TZ=America/Sao_Paulo
@@ -16009,7 +16015,7 @@ while true; do
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 5/10\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r user_email_dify
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_email_dify
     echo ""
 
     ## Pergunta a senha do SMTP
@@ -17184,7 +17190,7 @@ while true; do
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 3/6\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r user_smtp_docuseal
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_smtp_docuseal
     echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -18220,7 +18226,7 @@ sleep 1
 mkdir blablabla
 cd blablabla
 
-git clone https://github.com/admin2015/Setup2BX.git > /dev/null 2>&1
+git clone https://github.com/2BXdesign2015/Setup2BX.git > /dev/null 2>&1
 
 sudo mv /root/blablabla/Setup2BX/Extras/Grafana/monitor-2BX /opt
 
@@ -19130,7 +19136,7 @@ while true; do
 
     ##Pergunta o Dominio para a ferramenta
     #echo -e "\e[97mPasso$amarelo 4/4\e[0m"
-    #echo -en "\e[33mDigite o Usuario MySQL  (ex: admin): \e[0m" && read -r user_phpmyadmin
+    #echo -en "\e[33mDigite o Usuario MySQL  (ex: 2BXdesign): \e[0m" && read -r user_phpmyadmin
     #echo ""
 
     ##Pergunta o Dominio para a ferramenta
@@ -19467,7 +19473,7 @@ while true; do
 
     ##Pergunta o Dominio do Viewer
     echo -e "\e[97mPasso$amarelo 2/10\e[0m"
-    echo -en "\e[33mDigite o Usuario para o Supabase (ex: admin): \e[0m" && read -r user_supabase
+    echo -en "\e[33mDigite o Usuario para o Supabase (ex: 2BXDesign): \e[0m" && read -r user_supabase
     echo ""
 
     ##Pergunta a versão da ferramenta
@@ -19484,7 +19490,7 @@ while true; do
     ##Pergunta o usuário do Email SMTP
     echo -e "\e[97mPasso$amarelo 5/10\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuário para SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r usuario_email_supabase
+    echo -en "\e[33mDigite o Usuário para SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r usuario_email_supabase
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -19748,7 +19754,7 @@ services:
       - POSTGRES_PASSWORD=$Senha_Postgres ## Senha do Postgres #OK
 
       ## Branding
-      - DEFAULT_ORGANIZATION_NAME=admin ## Nome da Empresa
+      - DEFAULT_ORGANIZATION_NAME=2BXDesign ## Nome da Empresa
       - DEFAULT_PROJECT_NAME=Setup2BX ## Nome do Projeto
 
       ## Urls
@@ -20341,7 +20347,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 2/3\e[0m"
-    echo -en "\e[33mDigite o Usuario (ex: admin): \e[0m" && read -r user_ntfy
+    echo -en "\e[33mDigite o Usuario (ex: 2BXdesign): \e[0m" && read -r user_ntfy
     echo ""
 
     ##Pergunta o Dominio para aplicação
@@ -20593,7 +20599,7 @@ while true; do
 
     ##Pergunta o Dominio para aplicação
     echo -e "\e[97mPasso$amarelo 2/8\e[0m"
-    echo -en "\e[33mDigite o User do MongoDB (ex: admin): \e[0m" && read -r user_mongodb_lowcoder
+    echo -en "\e[33mDigite o User do MongoDB (ex: 2BXdesign): \e[0m" && read -r user_mongodb_lowcoder
     echo ""
 
     ##Pergunta o Dominio para aplicação
@@ -20609,7 +20615,7 @@ while true; do
     ## Pergunta o Ususario SMTP
     echo -e "\e[97mPasso$amarelo 5/8\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuario para SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r user_smtp_lowcoder
+    echo -en "\e[33mDigite o Usuario para SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_smtp_lowcoder
     echo ""
     
     ## Pergunta a senha do SMTP
@@ -21010,7 +21016,7 @@ while true; do
     ## Pergunta o usuario da ferramenta
     echo -e "\e[97mPasso$amarelo 3/10\e[0m"
     echo -e "$amarelo--> Sem caracteres especiais: \!#$ e/ou espaços"
-    echo -en "\e[33mDigite um Usuario Admin (ex: admin): \e[0m" && read -r user_humhub
+    echo -en "\e[33mDigite um Usuario Admin (ex: 2BXDesign): \e[0m" && read -r user_humhub
     echo ""
 
     ## Pergunta o email da ferramenta
@@ -21032,7 +21038,7 @@ while true; do
     ## Pergunta o User SMTP
     echo -e "\e[97mPasso$amarelo 7/10\e[0m"
     echo -e "$amarelo--> Caso não tiver um usuario do email, use o proprio email abaixo"
-    echo -en "\e[33mDigite o Usuario do SMTP (ex: admin ou contato@2bx.com.br): \e[0m" && read -r user_smtp_humhub
+    echo -en "\e[33mDigite o Usuario do SMTP (ex: 2BXdesign ou contato@2bx.com.br): \e[0m" && read -r user_smtp_humhub
     echo ""
     
     ## Pergunta a Senha SMTP
@@ -22193,7 +22199,7 @@ read -p "Deseja instalar outra aplicação? (Y/N): " choice
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                               2BX                                           ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Comandos extras
@@ -22717,7 +22723,7 @@ quepasa.setup.on(){
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                               2BX                                           ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Iniciando instalador
@@ -23693,7 +23699,7 @@ while true; do
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                               2BX                                           ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
         mysql)
@@ -23733,8 +23739,9 @@ while true; do
 
             fi   
             ;;
+
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                               2BX                                           ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
         
         evolution.beta)
@@ -23757,7 +23764,7 @@ while true; do
             ;;
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                               2BX                                           ##
+##                                                                                               ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
         ## Reiniciar portainer
@@ -23821,7 +23828,7 @@ while true; do
             ;;
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                               2BX                                           ##
+##                                                                                             ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 
