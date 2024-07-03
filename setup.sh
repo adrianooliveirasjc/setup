@@ -50,7 +50,7 @@ dados() {
 direitos_setup() {
     echo -e "$amarelo===================================================================================================\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
-    echo -e "$amarelo=  $branco                               https://2bx.com.br                             $amarelo  =\e[0m"
+    echo -e "$amarelo=  $branco                               https://2bx.com.br                                       $amarelo  =\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
     echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
@@ -60,7 +60,7 @@ direitos_setup() {
 direitos_instalador() {
     echo -e "$amarelo===================================================================================================\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
-    echo -e "$amarelo=  $branco                               https://2bx.com.br                             $amarelo  =\e[0m"
+    echo -e "$amarelo=  $branco                               https://2bx.com.br                                       $amarelo  =\e[0m"
     echo -e "$amarelo=                                                                                                 =\e[0m"
     echo -e "$amarelo===================================================================================================\e[0m"
     echo ""
