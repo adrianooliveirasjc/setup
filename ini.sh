@@ -72,9 +72,9 @@ sudo apt update
 sudo apt upgrade -y
 
 # Verifica se o arquivo setup já existe
-if [ -e "SetupOrion" ]; then
+if [ -e "setup" ]; then
     echo "O arquivo setup já existe. Removendo..."
-    rm SetupOrion
+    rm setup
 fi
 
 # Baixa o script
@@ -84,7 +84,7 @@ curl -sSL https://raw.githubusercontent.com/adrianooliveirasjc/setup/main/setup.
 if [ $? -eq 0 ]; then
     # Executa o script baixado
     chmod +x setup
-    ./SetupOrion
+    ./setup
 else
     echo "Falha ao baixar o script setup"
     sleep 5
